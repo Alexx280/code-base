@@ -1,0 +1,41 @@
+.button
+{
+    background-color: cadetblue;
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    z-index: 1;
+    opacity: 1;
+}
+#ball {
+    background-color: forestgreen;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 0;
+}
+/*
+#play
+{
+    background-color: lightgrey;
+    display: block;
+    position: relative;
+    width: 80px;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    height: 20px;
+    margin: 5px;
+    z-index: 1;
+    opacity: 1;
+    cursor: pointer;
+    border: 1px solid black;
+}*/
